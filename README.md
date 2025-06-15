@@ -28,13 +28,13 @@ Repository ini berisi kumpulan tugas besar mata kuliah Algoritma Pemrograman yan
 
 **Deskripsi:** Sistem pendaftaran driver ojek online dengan validasi dokumen KTP/SIM/STNK, rekomendasi motor berdasarkan berat badan, dan sistem approval admin.
 
-### 📁 [Kelompok 7 - [Nama Proyek]](./kelompok-7/)
+### 📁 [Kelompok 7 - Sistem Manajemen Gudang](./kelompok-7/)
 **Tim Pengembang:**
-- [Nama Anggota 1] ([NIM])
-- [Nama Anggota 2] ([NIM])
-- [Nama Anggota 3] ([NIM])
+- Rhyan Elmanda (101102400002)
+- Ardika Kalamulloh (101102400006)
+- Fajar Aulia Rachman (101102400052)
 
-**Deskripsi:** [Deskripsi proyek kelompok 7]
+**Deskripsi:** Sistem manajemen gudang dengan fitur CRUD untuk mengelola stok barang, lokasi penyimpanan, dan operasi keluar masuk barang di gudang.
 
 ## Fitur Utama Setiap Proyek
 
@@ -53,6 +53,14 @@ Repository ini berisi kumpulan tugas besar mata kuliah Algoritma Pemrograman yan
 - ✅ Admin authentication system
 - ✅ Status tracking pendaftaran
 - ✅ Search berdasarkan ID
+
+### Kelompok 7 - Manajemen Gudang:
+- ✅ CRUD untuk manajemen stok barang
+- ✅ Sistem login authentication
+- ✅ Tambah barang dengan lokasi penyimpanan
+- ✅ Monitoring stok real-time
+- ✅ Operasi keluar masuk barang
+- ✅ Validasi input dan error handling
 
 ## Cara Menjalankan Proyek
 1. Navigate ke folder kelompok yang diinginkan
@@ -80,10 +88,12 @@ tubes-alpro-2/
 │   ├── admin.txt               # Database admin
 │   ├── pendaftar.csv           # Database pendaftar
 │   └── reports/                # Folder laporan
-└── kelompok-7/                 # [Proyek Kelompok 7]
-    ├── kelompok-7.cpp
-    ├── kelompok-7.exe
-    └── README.md
+└── kelompok-7/                 # Sistem Manajemen Gudang
+    ├── kelompok-7.cpp          # Source code
+    ├── kelompok-7.exe          # Executable
+    ├── README.md               # Dokumentasi kelompok
+    ├── note.txt                # Catatan pengembangan
+    └── data/                   # Database stok barang
 ```
 
 ## Requirements & Technologies
@@ -91,19 +101,7 @@ tubes-alpro-2/
 - **Compiler**: GCC/MinGW
 - **Platform**: Windows
 - **Data Storage**: File TXT/CSV
-- **Struktur Data**: Array, Struct (no Vector)
-- **Navigation**: Switch-Case (no GOTO)
 - **Features**: Full CRUD Operations
-
-## Default Admin Credentials
-
-### Kelompok 2 (Camping):
-- Username: `admin`
-- Password: `admin123`
-
-### Kelompok 4 (WUTJEK):
-- Username: `admin`
-- Password: `wutjek123`
 
 ## Kontribusi
 Setiap kelompok bertanggung jawab untuk mengembangkan dan mendokumentasikan proyek mereka masing-masing. Pastikan untuk mengikuti standar penulisan kode dan dokumentasi yang baik.

@@ -3,12 +3,12 @@
 ## Tim Pengembang
 | No | Nama | NIM |
 |----|------|-----|
-| 1 | [Nama Anggota 1] | [NIM] |
-| 2 | [Nama Anggota 2] | [NIM] |
-| 3 | [Nama Anggota 3] | [NIM] |
+| 1 | Rhyan Elmanda | 101102400002 |
+| 2 | Ardika Kalamulloh | 101102400006 |
+| 3 | Fajar Aulia Rachman | 101102400052 |
 
 ## Deskripsi Program
-Program ini adalah sistem manajemen gudang yang dibuat menggunakan bahasa pemrograman C++. Sistem ini memungkinkan pengguna untuk melakukan operasi manajemen barang gudang termasuk menambah barang, menampilkan stok, mengeluarkan barang, dan pencarian data barang.
+Program ini adalah sistem manajemen gudang yang dibuat menggunakan bahasa pemrograman C++. Sistem ini memungkinkan admin gudang untuk melakukan operasi CRUD (Create, Read, Update, Delete) untuk mengelola stok barang, lokasi penyimpanan, dan operasi keluar masuk barang di gudang dengan sistem autentikasi yang aman.
 
 ## Rekomendasi Perbaikan Program
 
